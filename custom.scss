@@ -1,0 +1,158 @@
+$font-stack: Poppins;
+$font-option: Lato;
+$primary-color: #fff;
+$yellow: #f1D204;
+$gray: #545454;
+$orange: #f18b6d;
+$mauve: #6a4d8a;
+$headerimg: url(images/header.jpg);
+$projectsback: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+$lastestcolor: #222f36;
+$footertopcolor: #292825;
+$fottercolor: #242320;
+
+body{
+	color:$gray;
+	margin: 0;
+	font-family: 'Poppins';
+	text-align: center;
+
+	header{
+		color:$primary-color;
+
+		.container-fluid{
+
+			width: 1943px;
+			height: 960px;
+			background: $headerimg center no-repeat;
+
+			.container{
+
+				padding-right: 15px;
+				padding-left: 15px;
+				margin-right: auto;
+				margin-left: auto;
+				width: 1100px;
+				height: 960px;
+
+				nav{
+
+					figure{
+						margin: 0;
+						width: 155px;
+						img{
+						
+						}
+					}
+					ul{
+						display: flex;
+						list-style: none;
+						li{
+							a{
+								text-decoration: none;
+								&::hover{
+								text-transform: none;
+								}
+							}
+
+						}
+					}
+				}
+				section{
+					text-align: center;
+					h1{
+						font-size: 72px;
+						span{
+						color: $yellow;
+
+						}
+					}
+					p{
+
+					}
+					button{
+						#LM{
+						}
+						#D{
+						}
+					}
+				}
+			}
+		}
+	}
+	#about{
+		.container-fluid{
+			width: 1943px;
+			background: $primary-color;
+
+		}
+
+	}
+
+	#projects{
+		.container-fluid{
+			width: 1943px;
+			background: $projectsback repeat;
+
+			.container{
+				padding-right: 15px;
+				padding-left: 15px;
+				margin-right: auto;
+				margin-left: auto;
+				.puissance4{
+					width: 1904px;
+					height: 476px;
+					display: flex;
+					figure{
+					margin: 0;
+					}
+				}
+			}
+
+		}
+
+	}
+
+	#services{
+		.container-fluid{
+			width: 1943px;
+			background: $primary-color;
+
+			.puissance4{
+				display: flex;
+
+				article{
+				width: 300px;
+				height: 300px;
+					h3{
+						#design{
+							color: $orange;
+						}
+						#development{
+							color: $yellow;
+						}
+						#seo{
+							color: $mauve;
+						}
+					}
+				}
+			}
+
+		}
+
+	}
+
+	#lastestnews{
+		.container-fluid{
+			width: 1943px;
+			height: 960px;
+			background: $lastestcolor;
+
+		}
+
+	}
+
+	footer{
+
+	}
+}

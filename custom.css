@@ -1,0 +1,71 @@
+body {
+  color: #545454;
+  margin: 0;
+  font-family: 'Poppins';
+  text-align: center; }
+  body header {
+    color: #fff; }
+    body header .container-fluid {
+      width: 1943px;
+      height: 960px;
+      background: url(images/header.jpg) center no-repeat; }
+      body header .container-fluid .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1100px;
+        height: 960px; }
+        body header .container-fluid .container nav figure {
+          margin: 0;
+          width: 155px; }
+        body header .container-fluid .container nav ul {
+          display: flex;
+          list-style: none; }
+          body header .container-fluid .container nav ul li a {
+            text-decoration: none; }
+            body header .container-fluid .container nav ul li a::hover {
+              text-transform: none; }
+        body header .container-fluid .container section {
+          text-align: center; }
+          body header .container-fluid .container section h1 {
+            font-size: 72px; }
+            body header .container-fluid .container section h1 span {
+              color: #f1D204; }
+  body #about .container-fluid {
+    width: 1943px;
+    background: #fff; }
+  body #projects .container-fluid {
+    width: 1943px;
+    background: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) repeat; }
+    body #projects .container-fluid .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto; }
+      body #projects .container-fluid .container .puissance4 {
+        width: 1904px;
+        height: 476px;
+        display: flex; }
+        body #projects .container-fluid .container .puissance4 figure {
+          margin: 0; }
+  body #services .container-fluid {
+    width: 1943px;
+    background: #fff; }
+    body #services .container-fluid .puissance4 {
+      display: flex; }
+      body #services .container-fluid .puissance4 article {
+        width: 300px;
+        height: 300px; }
+        body #services .container-fluid .puissance4 article h3 #design {
+          color: #f18b6d; }
+        body #services .container-fluid .puissance4 article h3 #development {
+          color: #f1D204; }
+        body #services .container-fluid .puissance4 article h3 #seo {
+          color: #6a4d8a; }
+  body #lastestnews .container-fluid {
+    width: 1943px;
+    height: 960px;
+    background: #222f36; }
+
+/*# sourceMappingURL=custom.css.map */
